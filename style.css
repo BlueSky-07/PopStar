@@ -1,0 +1,66 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    padding: 0.5vmin;
+}
+
+.game {
+    width: 80vmin;
+    height: 80vmin;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 3vmin auto;
+    padding: 0;
+}
+
+.bar {
+    width: 50%;
+    height: 7vmin;
+    padding: 1vmin;
+    margin: auto;
+}
+
+.score {
+    display: inline-block;
+    float: left;
+    font-size: 5vmin;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#score {
+    color: #ffff00;
+}
+
+.buttons {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    font-size: 4vmin;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button {
+    background-color: #1d24a8;
+    padding: 0.5vmin;
+    cursor: default;
+    user-select: none;
+}
+
+.block {
+    margin: 0;
+    border: solid #000000;
+    display: inline-block;
+    cursor: default;
+    user-select: none;
+}
