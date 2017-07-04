@@ -1,6 +1,6 @@
 'use strict';
-var gameLevel = 14;
-var colorsCount = 7;
+var gameLevel = 12;
+var colorsCount = 5;
 var colors = [
     '#000000',
     '#FF0000',
@@ -103,7 +103,7 @@ function undo() {
 }
 
 function update(s) {
-    score += s * s;
+    score += 5 * s * s;
     document.getElementById('score').innerHTML = score + '';
     for (var j = 0; j < gameLevel; j++) {
         for (var i = gameLevel - 1; i > 0; i--) {
